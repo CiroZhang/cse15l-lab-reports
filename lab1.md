@@ -3,6 +3,8 @@ Question 1:
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$
 ```
+/home/lecture1
+
 Here we are trying to change directory. But since 
 we give it no arguments it changes to home directory
 
@@ -11,6 +13,8 @@ This one is not an error.
 [user@sahara ~/lecture1]$ ls
 Hello.java  messages  README
 ```
+/home/lecture1
+
 Here we are trying to list everything. But since
 we give it no arguemnts is list all files in the 
 current directory
@@ -22,6 +26,8 @@ This one is not an error.
 hello
 hello
 ```
+/home/lecture1
+
 Here we are trying to use CAT, but we give it no 
 arguments. Thus CAT is given no bevaior and does the default
 which is repeating whatever the user inputs. 
@@ -35,6 +41,8 @@ Question 2:
 [user@sahara ~/lecture1]$ cd messages
 [user@sahara ~/lecture1/messages]$
 ```
+/home/lecture1
+
 Here we are trying to change directory to our 
 arguments or messages
 
@@ -43,15 +51,17 @@ This one is not an error.
 [user@sahara ~/lecture1]$ ls messages
 en-us.txt  es-mx.txt  zh-cn.txt
 ```
+/home/lecture1
+
 Here we are trying to list everything in our 
 arguments or messages
 
 This one is not an error. 
 ```
-
 [user@sahara ~/lecture1]$ cat messages
 cat: messages: Is a directory
 ```
+/home/lecture1
 
 Here we are trying to use cat on the file but
 since it a directory, cat gives us a messages 
@@ -67,6 +77,7 @@ Question 3:
 bash: cd: Hello.java: Not a directory
 [user@sahara ~/lecture1]$
 ```
+/home/lecture1
 
 Here we are trying to change directory to our 
 arguments or Hello.java, but we cant as it is 
@@ -78,6 +89,7 @@ directory to a file.
 [user@sahara ~/lecture1]$ ls Hello.java
 Hello.java
 ```
+/home/lecture1
 
 Here we are trying to list everything in our 
 arguments or Hello.java but since is just a single
@@ -98,9 +110,10 @@ ts.UTF_8);
     System.out.println(content);
   }
 }[user@sahara ~/lecture1]$
-
-This one is not an error. 
 ```
+/home/lecture1
 
 Here we run CAT on our argument or Hello.java and it returns all the 
 contents in the file
+
+This one is not an error. 
