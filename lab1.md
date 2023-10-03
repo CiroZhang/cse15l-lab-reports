@@ -3,7 +3,6 @@ Question 1:
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$
 ```
-
 Here we are trying to change directory. But since 
 we give it no arguments it changes to home directory
 
@@ -11,7 +10,6 @@ we give it no arguments it changes to home directory
 [user@sahara ~/lecture1]$ ls
 Hello.java  messages  README
 ```
-
 Here we are trying to list everything. But since
 we give it no arguemnts is list all files in the 
 current directory
@@ -22,10 +20,10 @@ current directory
 hello
 hello
 ```
-
 Here we are trying to use CAT, but we give it no 
 arguments. Thus CAT is given no bevaior and does the default
-which is repeating whatever the user inputs
+which is repeating whatever the user inputs. The output is kindof
+an error unless the default is what you want. 
 
 --------------------------------------------------
 Question 2:
@@ -52,7 +50,7 @@ cat: messages: Is a directory
 
 Here we are trying to use cat on the file but
 since it a directory, cat gives us a messages 
-that "Is a directory" 
+that "Is a directory" as its running into an Error
 
 --------------------------------------------------
 Question 3:
@@ -64,7 +62,7 @@ bash: cd: Hello.java: Not a directory
 
 Here we are trying to change directory to our 
 arguments or Hello.java, but we cant as it is 
-not a directory
+not a directory. Thus it give us this error
 
 ```
 [user@sahara ~/lecture1]$ ls Hello.java
