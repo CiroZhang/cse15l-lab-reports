@@ -6,6 +6,8 @@ Question 1:
 Here we are trying to change directory. But since 
 we give it no arguments it changes to home directory
 
+This one is not an error. 
+
 ```
 [user@sahara ~/lecture1]$ ls
 Hello.java  messages  README
