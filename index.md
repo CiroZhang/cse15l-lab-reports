@@ -1,4 +1,4 @@
-#Bird
+Bird
 
 ![Image](OIP.jpg)
 
