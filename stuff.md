@@ -1,19 +1,19 @@
 Ni Hao 
-*Ni Haoc*
+*Ni Hao*
 **Ni Hao** 
-# Heading 1
-## Heading 2
-> Blockquote
+# Data Science
+## DSC80
+> Preq
 
-* List
-* List
-* List
+* DSC40A
+* DSC30
+* MATH18
 
-1. One
-2. Two
-3. Three
+1. DSC10
+2. DSC20
+3. DSC30
 
-Horizontal rule:
+UCSD:
 ---
 
-`Inline code` with backticks
+`HDSI` from
