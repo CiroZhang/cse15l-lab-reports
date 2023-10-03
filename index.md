@@ -1,2 +1,2 @@
 Hello, World!
-![Image](OIP.png)
+![Image](OIP.jpg)
