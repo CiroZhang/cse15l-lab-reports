@@ -1,6 +1,10 @@
 Question 1: 
+```
+{
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$
+```
+{
 
 Here we are trying to change directory. But since 
 we give it no arguments it changes to home directory
