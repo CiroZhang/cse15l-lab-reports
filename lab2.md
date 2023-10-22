@@ -1,6 +1,6 @@
-#Question 1: 
+# Question 1: 
 
-##StringServer.class
+## StringServer.class
 
 ```
 package wavelet;
