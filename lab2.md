@@ -1,6 +1,6 @@
 Question 1: 
 
-![Image](Add1.jpg)
+![Image](Add1.png)
 ```
 [user@sahara ~/lecture1]$ cd
 [user@sahara ~]$
