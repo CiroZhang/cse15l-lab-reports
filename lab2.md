@@ -59,3 +59,8 @@ class StringServer {
 * The path to the public ssh key: /Users/cirozhang/.ssh/id_rsa.pub
 
 ![Image](Signin.png)
+
+# Question 3:
+
+I never really worked with terminal before so everything I learn this week was new to me. Like over the coures of weeks 2 and 3 I learned a lot about how to remotely access another computer. In lab 2 and 3 I learn how to set of a server and website and have other computers connected to this. And more of week 3 taught me how URL work in general and how I could use it to impove my website with url query parameters. 
+
