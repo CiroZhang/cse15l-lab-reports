@@ -51,3 +51,6 @@ class StringServer {
 * If we ignore the methods called by Server.java when we started the server, the method call by StringServer is HandleRequest inside of the class Handler. Which help us add the message. 
 * The relevant argument to those method HandleRequest is the url. So in this case it will be a new Java URI at URI(http://localhost:4000/add-message?s=Hello). There are two class field for the class, which is text, which stores the text that will be showned on the website and by this point only sorts "1. Hello \n", and num, which is the number of text we added. Which at this point is 1. 
 * After this HandleRequest is called, num is now 2 and text contains "1. Hello \n 2. How are you \n"
+
+# Question 2:
+![Image](Add3.png)
