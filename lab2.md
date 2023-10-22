@@ -1,11 +1,12 @@
 #Question 1: 
 
+##StringServer.class
+
 ```
 package wavelet;
 import java.io.IOException;
 import java.net.URI;
 
-## StringServer.class
 class Handler implements URLHandler {
     // The one bit of state on the server: a number that will be manipulated by
     // various requests.
