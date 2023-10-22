@@ -58,4 +58,4 @@ class StringServer {
 * The path to the private ssh key: /Users/cirozhang/.ssh/id_rsa
 * The path to the public ssh key: /Users/cirozhang/.ssh/id_rsa.pub
 
-![Image](signin.png)
+![Image](Signin.png)
