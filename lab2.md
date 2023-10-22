@@ -53,4 +53,7 @@ class StringServer {
 * After this HandleRequest is called, num is now 2 and text contains "1. Hello \n 2. How are you \n"
 
 # Question 2:
-![Image](Add3.png)
+![Image](keys.png)
+
+* The path to the private ssh key: /Users/cirozhang/.ssh/id_rsa
+* The path to the public ssh key: /Users/cirozhang/.ssh/id_rsa.pub
