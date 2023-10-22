@@ -42,7 +42,6 @@ class StringServer {
 ```
 ## /add-message?s=Hello
 ![Image](Add1.png)
-//
-* Excluding the work that is done by Server.java, there is only one method in my code that gets called, which is HandleRequest inside of the class Handler.
+* If we ignore the methods called by Server.java when we started the server, the method call by StringServer is HandleRequest inside of the class Handler. Which help us add the message. 
 * The relevant argument that gets passed to the method HandleRequest will be the url as a Java URI, so in this case a new URI(http://localhost:4000/add-message?s=Hello). There is only one class field for the class, which is an ArrayList<String> called arr, which starts out empty.
 * After this HandleRequest is called, arr will now contain one String "Hello".
