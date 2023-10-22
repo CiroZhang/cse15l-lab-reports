@@ -29,7 +29,6 @@ class Handler implements URLHandler {
         }
     }
 }
-
 class StringServer {
     public static void main(String[] args) throws IOException {
         if(args.length == 0){
@@ -41,7 +40,7 @@ class StringServer {
     }
 }
 ```
-
+## /add-message?s=Hello
 ![Image](Add1.png)
 ```
 [user@sahara ~/lecture1]$ cd
