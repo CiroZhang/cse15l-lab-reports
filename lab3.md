@@ -63,3 +63,8 @@ static int[] reversed(int[] arr) {
     return newArray;
   }
 ```
+<br>
+Junit Passes
+![Image](Junit_Pass.png)
+
+<br>
