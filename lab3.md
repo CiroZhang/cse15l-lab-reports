@@ -40,6 +40,9 @@ AssertArrayEquals also gave us the symptom of each:
 3. testReversed54321: first index of output should be 1, but instead we got 0.
 <br>
 
+* The Bug our orginal code as was that it tried to assigned the reverse values of newArray to arr instead of the other way arround. And because of this bug, our output will be a array with only zeros regardless of the input
+  
+  
 Original Code with bug
 ```
 static int[] reversed(int[] arr) {
