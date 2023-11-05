@@ -72,3 +72,7 @@ Junit Passes
 ![Image](Junit_Pass.png)
 
 <br>
+
+Knowing the bug, it was a pretty easy fix. 
+1. Line 4: swap arr and newArray so we can have the reverse values of arr assigned to newArray
+2. Line 6: return newArray instead of arr
