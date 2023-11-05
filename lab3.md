@@ -30,3 +30,11 @@ JUnit test will pass
 <br>
 
 ![Image](Junit_Error.png)
+
+<br>
+
+Here we see with our Junit result that testReversed12345, testReversed33333, and testReversed54321 all failed to pass the assert
+AssertArrayEquals also gave us the symptom of each: 
+1. testReversed12345: first index of output should be 5, but instead we got 0.
+2. testReversed33333: first index of output should be 3, but instead we got 0.
+3. testReversed54321: first index of output should be 1, but instead we got 0. 
