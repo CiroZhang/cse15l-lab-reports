@@ -73,6 +73,6 @@ Junit Passes
 
 <br>
 
-Knowing the bug, it was a pretty easy fix. 
+Knowing the bug, it was a pretty easy fix. All we have to do is swap arr and newArray
 1. Line 4: swap arr and newArray so we can have the reverse values of arr assigned to newArray
 2. Line 6: return newArray instead of arr
