@@ -37,4 +37,28 @@ Here we see with our Junit result that testReversed12345, testReversed33333, and
 AssertArrayEquals also gave us the symptom of each: 
 1. testReversed12345: first index of output should be 5, but instead we got 0.
 2. testReversed33333: first index of output should be 3, but instead we got 0.
-3. testReversed54321: first index of output should be 1, but instead we got 0. 
+3. testReversed54321: first index of output should be 1, but instead we got 0.
+<br>
+
+Original Code with bug
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      arr[i] = newArray[arr.length - i - 1];
+    }
+    return arr;
+  }
+```
+
+<br>
+New Code without bug
+```
+static int[] reversed(int[] arr) {
+    int[] newArray = new int[arr.length];
+    for(int i = 0; i < arr.length; i += 1) {
+      newArray[i] = arr[arr.length - i - 1];
+    }
+    return newArray;
+  }
+```
