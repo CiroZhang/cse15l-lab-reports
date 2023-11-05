@@ -54,9 +54,10 @@ class StringServer {
 
 # Question 2:
 ![Image](keys.png)
+![Image](keys2.png)
 
 * The path to the private ssh key: /Users/cirozhang/.ssh/id_rsa
-* The path to the public ssh key: /Users/cirozhang/.ssh/id_rsa.pub
+* The path to the public ssh key: /home/linux/ieng6/cs15lfa23/cs15lfa23pj/.ssh/id_rsa
 
 ![Image](Signin.png)
 
