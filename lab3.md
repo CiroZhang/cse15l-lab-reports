@@ -52,6 +52,7 @@ static int[] reversed(int[] arr) {
 ```
 
 <br>
+
 New Code without bug
 ```
 static int[] reversed(int[] arr) {
