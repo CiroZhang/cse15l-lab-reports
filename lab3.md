@@ -108,7 +108,7 @@ plos/pmed.0020278.txt:0
 plos/pmed.0020281.txt:1
 ```
 
-we see here by using "-c", grep returns the number of lines in the find we search for rather than the texts inside. This could be very usefull if we are just looking for how many lines our in a specific file and we dont care about the content. 
+we see here by using "-c", grep returns the number of lines in the find we search for rather than the texts inside. This could be very usefull if we are just looking for how many lines in the file that match our search and we dont care about the content. 
 
 2. grep -l
 
