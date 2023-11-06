@@ -90,13 +90,44 @@ Knowing the bug, it was a pretty easy fix. All we have to do is swap arr and new
 ```
 (base) cirozhang@Ciros-MBP-2 technical % grep -c "is" biomed/rr37.txt
 157
-(base) cirozhang@Ciros-MBP-2 technical % grep -c "the" plos/journal.pbio.0020001.txt
-147
+(base) cirozhang@Ciros-MBP-2 technical % grep -c "scientific community" plos/*.txt
+... (parts omitted) ...
+plos/pmed.0020242.txt:0
+plos/pmed.0020246.txt:0
+plos/pmed.0020247.txt:0
+plos/pmed.0020249.txt:0
+plos/pmed.0020257.txt:0
+plos/pmed.0020258.txt:0
+plos/pmed.0020268.txt:0
+plos/pmed.0020272.txt:0
+plos/pmed.0020273.txt:0
+plos/pmed.0020274.txt:0
+plos/pmed.0020275.txt:0
+plos/pmed.0020278.txt:0
+plos/pmed.0020281.txt:1
 ```
 
+we see here by using "-c", grep returns the number of lines in the find we search for rather than the texts inside. This could be very usefull if we are just looking for how many lines our in a specific file and we dont care about the content. 
 
 3. grep -l
 
-4. grep -i
+```
+(base) cirozhang@Ciros-MBP-2 technical % grep -l "is" biomed/rr37.txt              
+biomed/rr37.txt
+(base) cirozhang@Ciros-MBP-2 technical % grep -l "scientific community"  plos/*.txt
+plos/journal.pbio.0020001.txt
+plos/journal.pbio.0020105.txt
+plos/journal.pbio.0020161.txt
+plos/journal.pbio.0020214.txt
+plos/journal.pbio.0020430.txt
+plos/pmed.0020035.txt
+plos/pmed.0020036.txt
+plos/pmed.0020281.txt
+```
+we see here by using "-l", grep returns the list of file names that matches our search rather than the contents inside. This could be very usefull if we are just looking for specific file names that match our search. 
 
-5. grep -h
+
+
+5. grep -i
+
+6. grep -h
