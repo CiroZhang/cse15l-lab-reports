@@ -90,6 +90,7 @@ Knowing the bug, it was a pretty easy fix. All we have to do is swap arr and new
 ```
 (base) cirozhang@Ciros-MBP-2 technical % grep -c "is" biomed/rr37.txt
 157
+
 (base) cirozhang@Ciros-MBP-2 technical % grep -c "scientific community" plos/*.txt
 ... (parts omitted) ...
 plos/pmed.0020242.txt:0
@@ -109,11 +110,12 @@ plos/pmed.0020281.txt:1
 
 we see here by using "-c", grep returns the number of lines in the find we search for rather than the texts inside. This could be very usefull if we are just looking for how many lines our in a specific file and we dont care about the content. 
 
-3. grep -l
+2. grep -l
 
 ```
 (base) cirozhang@Ciros-MBP-2 technical % grep -l "is" biomed/rr37.txt              
 biomed/rr37.txt
+
 (base) cirozhang@Ciros-MBP-2 technical % grep -l "scientific community"  plos/*.txt
 plos/journal.pbio.0020001.txt
 plos/journal.pbio.0020105.txt
@@ -128,6 +130,52 @@ we see here by using "-l", grep returns the list of file names that matches our 
 
 
 
-5. grep -i
+3. grep -i
 
-6. grep -h
+```
+cirozhang@Ciros-MBP-2 technical % grep -i  "IS" biomed/rr37.txt
+        ... (parts omitted) ...
+        subscale, one point is assigned for each medication used
+        frequent inhaled beta agonist or corticosteroid use.
+        by factor analysis [ 32], which measure physical and
+
+cirozhang@Ciros-MBP-2 technical % grep -i  "is" biomed/rr37.txt
+        ... (parts omitted) ...
+        subscale, one point is assigned for each medication used
+        frequent inhaled beta agonist or corticosteroid use.
+        by factor analysis [ 32], which measure physical and
+```
+
+With "-i" we see that we were able the find the file for both when our text is capitical case "IS" or not "is". This could be really useful if we want our grep search to ignore captical cases and fine the files were we otherwise wouldn't be able to. 
+
+4. grep -h
+
+```
+(base) cirozhang@Ciros-MBP-2 technical % grep -h  "USA" biomed/rr37.txt
+        in the USA [ 1]. The mortality rate from asthma has risen
+          (SAS Institute, Cary, NC, USA). We evaluated the
+        sharply in the USA since the late 1970s [ 2].
+        increasing in the USA and around the world, the minority of
+
+
+(base) cirozhang@Ciros-MBP-2 technical % grep -h "scientific community"  plos/*.txt 
+        the world scientific community closer to each other (Annan 2003). Mr. Annan stressed the
+        serious problems not only for the scientific community in the developing countries, but for
+        scientific community? We used SCI 2001 data to examine the proportion of publications in
+        impact in the international scientific community and is underrepresented in the top
+        independently are making important contributions to the international scientific community,
+        dialogue—a development undoubtedly in the interest of the scientific community, regardless
+        The scientific community should lead an ERC, says Larrouturou, ‘but I do not like the idea
+        that this should be completely under the guidance and wisdom of the scientific community
+        Abrikosov's repeated exhorations to the scientific community “to help all the talented
+        scientific community has targeted clinical applications, such as neuroprostheses for
+        global scientific community. But its success cannot be taken for granted and will come too
+        effort should be commended for providing a great service to the scientific community. It is
+        of the scientific community at large.
+        from the scientific community and whose incomplete findings cause injury; and
+```
+
+With "-h" we see that grep will only return the lines where our search is found, rather than the entire file. This could be very useful if we only want the specific lines that matches our search. 
+
+
+    
