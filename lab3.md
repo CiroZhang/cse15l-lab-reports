@@ -80,3 +80,12 @@ Knowing the bug, it was a pretty easy fix. All we have to do is swap arr and new
 <br>
 
 # Question 2: Researching Commands
+
+For this question we will look at the grep command. 
+Sources: geeksforgeeks
+Link: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+
+1. grep -c
+2. grep -l
+3. grep -i
+4. grep -h
