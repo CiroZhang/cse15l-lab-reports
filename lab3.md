@@ -81,11 +81,22 @@ Knowing the bug, it was a pretty easy fix. All we have to do is swap arr and new
 
 # Question 2: Researching Commands
 
-For this question we will look at the grep command. 
-Sources: geeksforgeeks
-Link: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
+* For this question we will look at the grep command. 
+* Sources: geeksforgeeks
+* Link: https://www.geeksforgeeks.org/grep-command-in-unixlinux/
 
 1. grep -c
-2. grep -l
-3. grep -i
-4. grep -h
+
+```
+(base) cirozhang@Ciros-MBP-2 technical % grep -c "is" biomed/rr37.txt
+157
+(base) cirozhang@Ciros-MBP-2 technical % grep -c "the" plos/journal.pbio.0020001.txt
+147
+```
+
+
+3. grep -l
+
+4. grep -i
+
+5. grep -h
