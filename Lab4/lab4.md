@@ -7,3 +7,9 @@
 
 <Ctrl + r> gi \<enter>
 
+# Task 6
+
+cd l <lab> \<enter>
+<Ctrl + r> ba \<enter>
+
+
