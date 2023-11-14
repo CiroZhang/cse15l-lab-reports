@@ -1,4 +1,9 @@
 # Task 4
 
-<Ctrl + r> g <tab> \<enter>
+<Ctrl + r> s \<enter>
+
+
+# Task 5
+
+<Ctrl + r> gi \<enter>
 
