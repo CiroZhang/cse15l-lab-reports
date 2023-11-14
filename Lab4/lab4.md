@@ -1,4 +1,4 @@
 # Task 4
 
-<Ctrl + r> g <tab> <enter>
+"<Ctrl + r> g <tab> <enter>"
 
