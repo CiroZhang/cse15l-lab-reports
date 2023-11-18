@@ -91,6 +91,8 @@ Knowing the bug, it was a pretty easy fix. All we have to do is swap arr and new
 (base) cirozhang@Ciros-MBP-2 technical % grep -c "is" biomed/rr37.txt
 157
 
+we see here by using "-c" and "is" to search for a specific file. grep returns us a number of the amount of times "is" is repeated in our file. This can be very useful if we didnt care for the overall content of our file and just want to quickly know how much times a word or letter is repeated. 
+
 (base) cirozhang@Ciros-MBP-2 technical % grep -c "scientific community" plos/*.txt
 ... (parts omitted) ...
 plos/pmed.0020242.txt:0
@@ -108,13 +110,15 @@ plos/pmed.0020278.txt:0
 plos/pmed.0020281.txt:1
 ```
 
-we see here by using "-c", grep returns the number of lines in the find we search for rather than the texts inside. This could be very usefull if we are just looking for how many lines in the file that match our search and we dont care about the content. 
+we see here by using "-c" and "scientific community" to search for multiple files. grep returns us the file name and directory followed by a number of the amount of times "scientific community" for that files. So unlike before this tells us the information of multiple files. This could be very usefull if we are just looking for amount of words in the files that match our search and we dont care about the content. 
 
 2. grep -l
 
 ```
 (base) cirozhang@Ciros-MBP-2 technical % grep -l "is" biomed/rr37.txt              
 biomed/rr37.txt
+
+we see here by using "-l" and "is" to search for a specific file. grep returns that file name if it contains 'is'. In this case it returns biomed/rr37.txt telling us it contain our search of the word "is". In this case this could be useful if we want to confirm if a certain file contains the word we are searching for. 
 
 (base) cirozhang@Ciros-MBP-2 technical % grep -l "scientific community"  plos/*.txt
 plos/journal.pbio.0020001.txt
@@ -126,8 +130,9 @@ plos/pmed.0020035.txt
 plos/pmed.0020036.txt
 plos/pmed.0020281.txt
 ```
-we see here by using "-l", grep returns the list of file names that matches our search rather than the contents inside. This could be very usefull if we are just looking for specific file names that match our search. 
 
+we see here by using "-l", and "scientific community" to search for multiple files. grep returns the list of file names that matches our search rather than the contents inside. 
+Although the single search may not be as useful, this one definely is. In this case, it could be very usefull if we are just looking for specific file names that match our search. 
 
 
 3. grep -i
