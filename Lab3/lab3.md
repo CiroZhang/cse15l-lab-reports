@@ -92,7 +92,7 @@ Knowing the bug, it was a pretty easy fix. All we have to do is swap arr and new
 157
 ```
 
-we see here by using "-c" and "is" to search for a specific file. grep returns us a number of the amount of times "is" is repeated in our file. This can be very useful if we didnt care for the overall content of our file and just want to quickly know how much times a word or letter is repeated. 
+we see here by using "-c" and "is" to search for a specific file. grep returns us a number of lines where "is" is repeated in our file. This can be very useful if we didnt care for the overall content of our file and just want to quickly know how much lines contains our word 
 
 ```
 (base) cirozhang@Ciros-MBP-2 technical % grep -c "scientific community" plos/*.txt
@@ -112,7 +112,7 @@ plos/pmed.0020278.txt:0
 plos/pmed.0020281.txt:1
 ```
 
-we see here by using "-c" and "scientific community" to search for multiple files. grep returns us the file name and directory followed by a number of the amount of times "scientific community" for that files. So unlike before this tells us the information of multiple files. This could be very usefull if we are just looking for amount of words in the files that match our search and we dont care about the content. 
+we see here by using "-c" and "scientific community" to search for multiple files. grep returns us the file name and directory followed by a number of the amount of lines "scientific community" appears for that files. So unlike before this tells us the information of multiple files. This could be very usefull if we are just looking for amount of lines in the files that match our search and we dont care about the content. 
 
 2. grep -l
 
@@ -142,25 +142,25 @@ Although the single search may not be as useful, this one definely is. In this c
 3. grep -i
 
 ```
-cirozhang@Ciros-MBP-2 technical % grep -i  "IS" biomed/rr37.txt
-        ... (parts omitted) ...
-        subscale, one point is assigned for each medication used
-        frequent inhaled beta agonist or corticosteroid use.
-        by factor analysis [ 32], which measure physical and
-
-With "-i" we see that we were able the find the file for both when our text is capitical case "IS" or not "is". In this case 
-
-
-This could be really useful if we want our grep search to ignore captical cases and fine the files were we otherwise wouldn't be able to. 
-
 cirozhang@Ciros-MBP-2 technical % grep -i  "is" biomed/rr37.txt
         ... (parts omitted) ...
         subscale, one point is assigned for each medication used
         frequent inhaled beta agonist or corticosteroid use.
         by factor analysis [ 32], which measure physical and
 ```
+With "-i" we see that we were able the find the lines containing our pattern regardless of the capitcalization. In this case when we search for "is", grep returns the places where our word "is" appears regardless of the capitcalization. This could be really useful if we want our grep search to ignore captical cases and fine the files were we otherwise wouldn't be able to. 
 
-With "-i" we see that we were able the find the file for both when our text is capitical case "IS" or not "is". This could be really useful if we want our grep search to ignore captical cases and fine the files were we otherwise wouldn't be able to. 
+
+```
+cirozhang@Ciros-MBP-2 technical % grep -i  "IS" biomed/rr37.txt
+        ... (parts omitted) ...
+        subscale, one point is assigned for each medication used
+        frequent inhaled beta agonist or corticosteroid use.
+        by factor analysis [ 32], which measure physical and
+```
+
+Here we see when we search for the same file but with "IS", grep returns the same result. In this case it ignores all captical cases and still returns the lines where "IS" is lowercase "is". As mentioned before, this could be really useful if we want our grep search to ignore captical cases and fine the files were we otherwise wouldn't be able to. 
+
 
 4. grep -h
 
@@ -170,8 +170,11 @@ With "-i" we see that we were able the find the file for both when our text is c
           (SAS Institute, Cary, NC, USA). We evaluated the
         sharply in the USA since the late 1970s [ 2].
         increasing in the USA and around the world, the minority of
+```
 
+With "-h" we see that grep will only return the lines where our search is found, ignoring the file name. This could be very useful if we only want the the contains of were our pattern appears rathers and dont care about which file its from. In this case with "USA", it help us display the place the lines that contains "USA" while saving the space of repeating the file name that where its from. 
 
+```
 (base) cirozhang@Ciros-MBP-2 technical % grep -h "scientific community"  plos/*.txt 
         the world scientific community closer to each other (Annan 2003). Mr. Annan stressed the
         serious problems not only for the scientific community in the developing countries, but for
@@ -189,7 +192,7 @@ With "-i" we see that we were able the find the file for both when our text is c
         from the scientific community and whose incomplete findings cause injury; and
 ```
 
-With "-h" we see that grep will only return the lines where our search is found, rather than the entire file. This could be very useful if we only want the specific lines that matches our search. 
+Here when we do "-h" but on multiple files, the same thing happens. Our search does not tell us which file these lines that contains are from. It display only these lines which could save us space and make thing look nicer. So in this case, it could be very useful when we only want a collection of when our patterns appears in our files, while not caring of where they orginated from. 
 
 
     
