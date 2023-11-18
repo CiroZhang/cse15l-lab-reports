@@ -90,9 +90,11 @@ Knowing the bug, it was a pretty easy fix. All we have to do is swap arr and new
 ```
 (base) cirozhang@Ciros-MBP-2 technical % grep -c "is" biomed/rr37.txt
 157
+```
 
 we see here by using "-c" and "is" to search for a specific file. grep returns us a number of the amount of times "is" is repeated in our file. This can be very useful if we didnt care for the overall content of our file and just want to quickly know how much times a word or letter is repeated. 
 
+```
 (base) cirozhang@Ciros-MBP-2 technical % grep -c "scientific community" plos/*.txt
 ... (parts omitted) ...
 plos/pmed.0020242.txt:0
@@ -117,9 +119,11 @@ we see here by using "-c" and "scientific community" to search for multiple file
 ```
 (base) cirozhang@Ciros-MBP-2 technical % grep -l "is" biomed/rr37.txt              
 biomed/rr37.txt
+```
 
 we see here by using "-l" and "is" to search for a specific file. grep returns that file name if it contains 'is'. In this case it returns biomed/rr37.txt telling us it contain our search of the word "is". In this case this could be useful if we want to confirm if a certain file contains the word we are searching for. 
 
+```
 (base) cirozhang@Ciros-MBP-2 technical % grep -l "scientific community"  plos/*.txt
 plos/journal.pbio.0020001.txt
 plos/journal.pbio.0020105.txt
@@ -143,6 +147,11 @@ cirozhang@Ciros-MBP-2 technical % grep -i  "IS" biomed/rr37.txt
         subscale, one point is assigned for each medication used
         frequent inhaled beta agonist or corticosteroid use.
         by factor analysis [ 32], which measure physical and
+
+With "-i" we see that we were able the find the file for both when our text is capitical case "IS" or not "is". In this case 
+
+
+This could be really useful if we want our grep search to ignore captical cases and fine the files were we otherwise wouldn't be able to. 
 
 cirozhang@Ciros-MBP-2 technical % grep -i  "is" biomed/rr37.txt
         ... (parts omitted) ...
