@@ -14,9 +14,9 @@ cd l <lab> \<enter>
 
 # Task 7
 
-vim L <lab> . <lab> 
+vim L \<tab> . \<tab> 
 
-/ i n d e x 1 + <enter> n e <right arrow>  i <delete> 2 <esc> : x
+/ i n d e x 1 + \<enter> n e <right arrow>  i \<delete> 2 <esc> : x
 
 # Task 8
 
