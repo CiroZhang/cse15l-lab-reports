@@ -9,14 +9,14 @@
 
 # Task 6
 
-cd l <lab> \<enter>
+cd l \<tab> \<enter>
 <Ctrl + r> ba \<enter>
 
 # Task 7
 
 vim L \<tab> . \<tab> 
 
-/ i n d e x 1 + \<enter> n e <right arrow>  i \<delete> 2 <esc> : x
+/ i n d e x 1 + \<enter> n e \<right arrow>  i \<delete> 2 \<esc> : x
 
 # Task 8
 
