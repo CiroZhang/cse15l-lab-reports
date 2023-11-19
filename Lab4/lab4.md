@@ -9,7 +9,7 @@
 
 # Task 6
 
-cd l \<tab> \<enter>
+cd l \<tab> \<enter> 
 <Ctrl + r> ba \<enter>
 
 # Task 7
