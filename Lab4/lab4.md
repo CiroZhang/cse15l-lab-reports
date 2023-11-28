@@ -31,11 +31,13 @@ cd l \<tab> \<enter>
 
 vim L \<tab> . \<tab> 
 
-* here I am trying the use the vim command on the file i am trying to edit. l + tab here autofiled "ListExamples" and . + tab autofiled the ".java". So with these two auto fills I was able to type out the file I want to write vim with without typing its full file name. 
+* here I am trying the use the vim command on the file i am trying to edit. L + tab here autofiled "ListExamples" and . + tab autofiled the ".java". So with these two auto fills I was able to type out the file I want to write vim with without typing its full file name. 
 
 ![Image](task7.1.png)
 
-/ i n d e x 1 + \<enter> n e \<right arrow>  i \<delete> 2 \<esc> : x
+/ i n d e x 1 <space> + \<enter> n e \<right arrow>  i \<delete> 2 \<esc> : x
+
+* here I am first trying to locate the place where "index1 +" appears by using "/index1 +" . when I press "n" to move muy curser to the second time index1 appears. "e" then move my curser to the end of that world. the right arrow then move it to behind "index1" so that " i \<delete> 2" can first delete the "1" in index1 and replace it with "2". \<esc> : x then exits the vim and saves the edit. 
 
 ![Image](task7.2.png)
 
@@ -43,12 +45,18 @@ vim L \<tab> . \<tab>
 
 <Ctrl + r> ba \<enter>
 
+* Same commands as task 6. I rearched up my past command using control + r and after type "ba" the first one that showed up was "bash test.sh"
+
+
 ![Image](task8.png)
 
 # Task 9
 
 <Ctrl + r> git a \<enter>
-<Ctrl + git a> git c\<enter>
+<Ctrl + r> git co \<enter>
+
+* Here I did control + r command twice. First I search up "git a" in my past commands and the first one that showed up "git add ." which I then press enter to run. Then I search up "git co" in my past commands and the first one that showed up was "git commit -m "bug fixed" which I press enter to run. 
+
 
 ![Image](task9.1.png)
 
