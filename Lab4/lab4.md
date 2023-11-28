@@ -17,7 +17,11 @@ here it the same as task 4. I searched up my past commands using control + r and
 # Task 6
 
 cd l \<tab> \<enter> 
+
+here I first change by directory into the lab7 folder. l \<tab> auto filled "lab7" so I was able to get the name of the directory i was to change to with way less keys. 
+
 <Ctrl + r> ba \<enter>
+
 
 ![Image](task6.png)
 
