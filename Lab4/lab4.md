@@ -31,6 +31,8 @@ cd l \<tab> \<enter>
 
 vim L \<tab> . \<tab> 
 
+* here I am trying the use the vim command on the file i am trying to edit. l + tab here autofiled "ListExamples" and . + tab autofiled the ".java". So with these two auto fills I was able to type out the file I want to write vim with without typing its full file name. 
+
 ![Image](task7.1.png)
 
 / i n d e x 1 + \<enter> n e \<right arrow>  i \<delete> 2 \<esc> : x
