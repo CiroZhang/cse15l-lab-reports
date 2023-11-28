@@ -60,6 +60,8 @@ vim L \<tab> . \<tab>
 
 ![Image](task9.1.png)
 
-<Ctrl + git a> git p\<enter>
+<Ctrl + r> git p\<enter>
+
+* Here I did control + r to search up "git p" in my past commands. And the first one to show up was "git push". Which I then press enter to run/ 
 
 ![Image](task9.2.png)
