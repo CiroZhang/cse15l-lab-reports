@@ -18,11 +18,11 @@ here it the same as task 4. I searched up my past commands using control + r and
 
 cd l \<tab> \<enter> 
 
-here I first change by directory into the lab7 folder. l \<tab> auto filled "lab7" so I was able to get the name of the directory i was to change to with way less keys. 
+* here I first change by directory into the lab7 folder. l \<tab> auto filled "lab7" so I was able to get the name of the directory i was to change to with way less keys. 
 
 <Ctrl + r> ba \<enter>
 
-here I rearched up my past command using control + r and after type "ba" the first one that showed up was "bash test.sh"
+* here I rearched up my past command using control + r and after type "ba" the first one that showed up was "bash test.sh"
 
 
 ![Image](task6.png)
