@@ -1,4 +1,4 @@
-# Part 1: Original Post by Student
+## Part 1: Original Post by Student
 
 Title: Issue with Java Program Output
 
