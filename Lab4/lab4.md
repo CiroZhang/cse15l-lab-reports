@@ -10,9 +10,9 @@
 
 # Task 5: Clone your fork of the repository from your Github account
 
-<Ctrl + r> gi \<enter>
+<Ctrl + r> git cl \<enter>
 
-* here I searched up my past commands using control + r and "git"
+* here I searched up my past commands using control + r and "git cl"
 * In this case the first command that pop up was :"git clone git@github.com:CiroZhang/lab7.git"
 * So I press enter and run this command and clone the repository
 
