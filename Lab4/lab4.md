@@ -24,7 +24,7 @@ cd l \<tab> \<enter>
 
 * Here I first change by directory into the lab7 folder.
 * "l" and \<tab> auto filled "lab7" so i didnt have to type the name of the directory
-* I was able to get: cd lab7
+* I was able to get: "cd lab7"
 * So I press enter and run this command and change the directory to lab7
 
 <Ctrl + r> ba \<enter>
