@@ -2,7 +2,7 @@
 
 <Ctrl + r> s \<enter>
 
-* here since I logged into my ieng already before, all I had to do was search for it in my past commands with control + r and find the command that start with s.
+* I search for it in my past commands with control + r and "s".
 * In this case the first one that pops up is: "ssh cs15lfa23pj@ucsd.edu"
 * so i pressed enter to run command and Log into ieng6
 
@@ -12,7 +12,8 @@
 
 <Ctrl + r> gi \<enter>
 
-* here I searched up my past commands using control + r and the first command that pop up when i typed "gi" was "git clone". So I just had to press enter and run this command. 
+* here I searched up my past commands using control + r and "git"
+* In this case the first command that pop up was :"git clone". So I just had to press enter and run this command. 
 
 ![Image](task5.png)
 
