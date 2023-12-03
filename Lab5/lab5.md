@@ -54,6 +54,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 
 * Directories
+  
 ![Image](dir.png)
 
 ## Part 2: Response from a TA 
@@ -134,6 +135,7 @@ java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnit
 ```
 
 * Directories (no edit)
+  
 ![Image](dir.png)
 
 # Part 2 – Reflection
