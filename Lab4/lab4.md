@@ -1,4 +1,4 @@
-# Task 4
+# Task 4: Log into ieng6
 
 <Ctrl + r> s \<enter>
 
@@ -8,7 +8,7 @@
 
 ![Image](task4.png)
 
-# Task 5
+# Task 5: Clone your fork of the repository from your Github account
 
 <Ctrl + r> gi \<enter>
 
