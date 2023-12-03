@@ -2,7 +2,9 @@
 
 <Ctrl + r> s \<enter>
 
-* here since I logged into my ieng already before, all I had to do was search for it in my past commands with control + r and find the command that start with s. In this case the first one that pops up is "ssh cs15lfa23pj@ucsd.edu" so i pressed enter and run this command. 
+* here since I logged into my ieng already before, all I had to do was search for it in my past commands with control + r and find the command that start with s.
+* In this case the first one that pops up is: "ssh cs15lfa23pj@ucsd.edu"
+* so i pressed enter to run command and Log into ieng6
 
 ![Image](task4.png)
 
