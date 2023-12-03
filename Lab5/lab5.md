@@ -1,6 +1,6 @@
-# Part 1: 
+# Part 1: Debugging Scenario
 
-## Part 1: Original Post by Student
+## Original Post by Student
 
 Title: Issue with Java Program Output
 
@@ -19,6 +19,7 @@ Here's a screenshot of the error when I run my unit tests:
 I have also attached all the files I have been working on. Please let me know what I did wrong
 
 
+## Original code
 
 * Fibonacci.java (with error)
 ```
@@ -52,7 +53,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore FibonacciTests
 ```
 
-# Part 2: Response from a TA 
+## Response from a TA 
 
 Hi (student name), 
 
@@ -65,7 +66,7 @@ You will see that one of them will fail. Try debugging the one that fails and lo
 Hope this helps and let me know if you still have any questions. 
 
 
-# Part 3: Response from Student 
+## Response from Student 
 
 Oh I see the issue,
 
@@ -85,6 +86,7 @@ So I change the condition of my if statment and now the recussion works properly
 
 Thank you so much for the help
 
+## New code
 
 * Fibonacci.java (without error)
 ```
