@@ -84,7 +84,7 @@ I added the two new tests and I see when n = 0, the programs passes, but it run 
 
 When I debugged the error I notice that is was because of the fib(n-2) part of my recussions, since when n = 1, fib(1 - 2) creates a recussion when n = -1. This means that the recussion with never be stop by my if statmet as n continue to get smaller than 0. 
 
-So I change the condition of my if statment and now the recussion works properly. 
+So I change the condition of my if statment, fixing the bug, and now the recussion works properly. 
 
 ![Image](success.png)
 
