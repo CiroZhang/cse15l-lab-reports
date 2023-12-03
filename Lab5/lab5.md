@@ -53,6 +53,9 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore FibonacciTests
 ```
 
+* Directories
+![Image](dir.png)
+
 ## Part 2: Response from a TA 
 
 Hi (student name), 
@@ -130,7 +133,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore FibonacciTests
 ```
 
-* Directories
+* Directories (no edit)
 ![Image](dir.png)
 
 # Part 2 – Reflection
