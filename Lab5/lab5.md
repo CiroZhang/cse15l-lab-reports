@@ -1,6 +1,6 @@
 # Part 1: Debugging Scenario
 
-## Original Post by Student
+## Question 1: Original Post by Student
 
 Title: Issue with Java Program Output
 
@@ -21,7 +21,7 @@ I have also attached all the files I have been working on. Please let me know wh
 
 ## Original code
 
-* Fibonacci.java (with error)
+* Fibonacci.java 
 ```
 public class Fibonacci {
     public static int fib(int n) {
@@ -53,7 +53,7 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore FibonacciTests
 ```
 
-## Response from a TA 
+## Part 2: Response from a TA 
 
 Hi (student name), 
 
@@ -66,7 +66,7 @@ You will see that one of them will fail. Try debugging the one that fails and lo
 Hope this helps and let me know if you still have any questions. 
 
 
-## Response from Student 
+## Part 3: Response from Student 
 
 Oh I see the issue,
 
@@ -129,6 +129,10 @@ public class FibonacciTests {
 javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore FibonacciTests
 ```
+
+* Directories
+![Image](dir.png)
+
 # Part 2 – Reflection
 
 I felt like I learned much more during this quarter's second half than in the first half.
