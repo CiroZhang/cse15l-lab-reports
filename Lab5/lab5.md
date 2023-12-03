@@ -36,7 +36,7 @@ public class FibonacciTests {
     @Test
     public void testFirst10() {
         int n = 10; 
-	    int[] answers = {0, 1, 1, 2, 3, 5, 8, 13, 21, 33};
+	    int[] answers = {0, 1, 1, 2, 3, 5, 8, 13, 21, 34};
         for (int i = 0; i < n; i++) {
             assertEquals(answers[i], Fibonacci.fib(i));
         }
@@ -84,8 +84,6 @@ So I change the condition of my if statment and now the recussion works properly
 Thank you so much for the help
 
 
-
-
 * Fibonacci.java (without error)
 ```
 public class Fibonacci {
@@ -101,11 +99,20 @@ public class Fibonacci {
 * FibonacciTests.java (with two new tests) 
 ```
 public class FibonacciTests {
+    @Test
+    public void testFirst() {
+        assertEquals(0, Fibonacci.fib(0));
+    }
+
+    @Test
+    public void testSecond() {
+        assertEquals(1, Fibonacci.fib(1));
+    }
 
     @Test
     public void testFirst10() {
         int n = 10; 
-	    int[] answers = {0, 1, 1, 2, 3, 5, 8, 13, 21, 33};
+	    int[] answers = {0, 1, 1, 2, 3, 5, 8, 13, 21, 34};
         for (int i = 0; i < n; i++) {
             assertEquals(answers[i], Fibonacci.fib(i));
         }
