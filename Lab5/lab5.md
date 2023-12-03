@@ -130,3 +130,13 @@ javac -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar *.java
 java -cp .:lib/hamcrest-core-1.3.jar:lib/junit-4.13.2.jar org.junit.runner.JUnitCore FibonacciTests
 ```
 # Part 2 – Reflection
+
+I felt like I learned much more during this quarter's second half than in the first half.
+
+We come from zero prior experience with Vim or Bash. It was interesting to see what we could do with the two. 
+
+For example, in the past, I have repeatedly typed out Javac (some files) and Java (some files) through terminal to run any Java file. Although it usually doesn't take that much of my time, it gets annoying when the number of Java files I am trying to run simultaneously increases. Bash scripts, in this case, give me a quick and easy solution. Throughout our labs in the second half of the quarter, everything we needed to test a file, all we had to do was "bash test.sh". Which was super convenient and something I will definitely continue to do moving forward in my coding journey. 
+
+Another example was Vim. Vim, in this case, allows me to do quick edits through the command line. However, for bigger projects, I would definitely want to  VS code or Intellj. But Vim provides me with a quick alternative for quick and minor edits to files on my computer. And especially during our last skill demo, when all we did was make small edits to fix a file. I was able to use Vim to fix the bugs in less than a minute, while if I were to use, let's say, Intellj, I would have had to spend at least 1-2 minutes just to set everything up. 
+
+I think overall, I really enjoy and learn a lot in our labs. I did feel that many times things went past really fast, and I wasn't really getting everything. But my lab classmate and tutor definitely did help me catch up from time to time. 
